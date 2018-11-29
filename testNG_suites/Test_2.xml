@@ -1,0 +1,14 @@
+<suite name="Test_2">
+    <!--<parameter name = "name" value ="Dresses"></parameter>-->
+    <test name="gotToWomenPage">
+        <classes>
+            <class name="pl.b2b.net.automationPractice.pages.homePage.TestHomePage">
+                <methods>
+                    <exclude name="goToWomenPage"></exclude>
+                </methods>
+            </class>
+            <class name="pl.b2b.net.automationPractice.pages.womenPage.TestWomanPage"/>
+            <class name="pl.b2b.net.automationPractice.pages.topsPage.TestTopsPage"/>
+        </classes>
+    </test>
+</suite>
